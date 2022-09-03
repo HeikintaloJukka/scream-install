@@ -27,3 +27,7 @@ WantedBy=default.target
 systemctl --user enable scream_start.service
 systemctl --user start scream_start.service
 systemctl --user status scream_start.service
+
+## Git note set editor with before commit
+
+export GIT_EDITOR=nano
