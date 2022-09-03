@@ -1,0 +1,11 @@
+[Unit]
+Description=Start scream
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=scream -v -i virbr1
+Restart=always
+
+[Install]
+WantedBy=default.target
