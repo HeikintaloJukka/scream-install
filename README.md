@@ -26,6 +26,10 @@ WantedBy=default.target
 - systemctl --user enable scream_start.service
 - systemctl --user start scream_start.service
 - systemctl --user status scream_start.service
+  
+## Firewall
+
+- Allow port 4010 in ufw
 
 ## Git note set editor with before commit
 
